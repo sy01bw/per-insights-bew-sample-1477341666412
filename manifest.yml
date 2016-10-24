@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: per-insights-bew-sample
+  host: per-insights-bew-sample
+  disk_quota: 1024M
+  services:
+  - per-insights-bew-sample-personality_insights
